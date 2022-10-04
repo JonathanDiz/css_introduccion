@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Winter Poppins;
+  src: url(./fonts/Winter\ Poppins\ .ttf);
+}
+
+body {
+  background-image: url(./img/lone-tree.jpg);
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+.container {
+  text-align: center;
+}
+
+.h1-title {
+  font-family: Winter Poppins;
+  color: white;
+}
+
+.p-p1 {
+  font-family: Winter Poppins;
+  font-size: 40px;
+  color: white;
+}
+
+.index-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.index-btn:hover {background-color: grey}
+
+.index-btn:active {
+  background-color: grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
